@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>A brief introduction or tagline</p>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="your-image.jpg" alt="Your Image">
+    <p>Write a short bio highlighting your skills and experience.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Skill 3</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <img src="project1.jpg" alt="Project 1 Image">
+      <p>Project description.</p>
+    </div>
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <img src="project2.jpg" alt="Project 2 Image">
+      <p>Project description.</p>
+    </div>
+  </section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+  margin: 10px 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills ul li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 5px solid #333;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+#contact p {
+  margin: 10px 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
