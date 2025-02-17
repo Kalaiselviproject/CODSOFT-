@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute to [Person's Name]</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tribute to [Person's Name]</h1>
+  </header>
+  <section id="about">
+    <h2>About [Person's Name]</h2>
+    <img src="[image-url]" alt="[Person's Name]">
+    <p>[Person's Name] is an amazing individual known for...</p>
+  </section>
+  <section id="qualities">
+    <h2>Admirable Qualities</h2>
+    <ul>
+      <li>Quality 1</li>
+      <li>Quality 2</li>
+      <li>Quality 3</li>
+    </ul>
+  </section>
+  <section id="legacy">
+    <h2>Legacy and Impact</h2>
+    <p>[Person's Name]'s impact on the world includes...</p>
+  </section>
+  <footer>
+    <p>Created with love by [Your Name]</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
